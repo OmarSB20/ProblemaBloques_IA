@@ -11,6 +11,7 @@ eM = np.array ([
     [7, 6, 5]
 ])
 
+#Matriz con la cual se estaran haciendo las comparaciones para ver la factibilidad de los movimientos deseados
 matrz_Comparacion = np.array ([
     [1, 2, 3],
     [8, 150, 4],
@@ -36,6 +37,7 @@ estado_previo = np.array([
     []
 ])
 
+#Aqui se estaran almacenando todos los estados previos para evitar que se repitan estados
 estados_previos = np.empty((0, 3, 3))
 
 nuevo_estado = np.array ([
